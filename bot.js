@@ -195,6 +195,7 @@ async function handleVideo(video, msg, voiceChannel, playlist = false) {
         } catch (error) {
             console.error(`I could not join the voice channel: ${error}`);
             queue.delete(msg.guild.id);
+            return msg.channel.send(`لا أستطيع دخول هذآ الروم ${error}`);
            
         }
     } else {
