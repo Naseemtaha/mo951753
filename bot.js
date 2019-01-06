@@ -12,7 +12,7 @@ const discord_token = "Mzk1OTc1NDk5MTUyODgzNzI2.DUZlqA.W9PnGkTSYc2tVaC_BYEyTJH5A
 client.login(discord_token);
 client.on('ready', function() {
 	console.log(`i am ready ${client.user.username}`);
-    client.user.setGame(prefix + 'مساعدة || ');
+    client.user.setGame(prefix + 'مساعدة  ');
 });
 /*
 ////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\
