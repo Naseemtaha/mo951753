@@ -196,7 +196,7 @@ client.on("message", message => {
 💎『الدعم الفني والمساعدة』💎
 ^^invite | القسم الاول لي اضافه البوت 
 ^^support| القسم الثاني  الدعم الفني و المساعدة
- 
+القسم الثالث مصمم البوت | @حـ♥̨̥̬̩سوني آإلعرآإقـ♥̨̥̬̩ي#7725 
 ● ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ● 
 `)
 
@@ -402,8 +402,8 @@ client.on('message', message => {
 
 
     client.on('message', message => {
-     if (message.content === "L
-Lid") {
+     if (message.content === "Lid")
+ {
      let embed = new Discord.RichEmbed()
   .setThumbnail(message.author.avatarURL)  
   .setAuthor(message.author.username)
@@ -781,4 +781,4 @@ client.on("message", message => {
    
    }
    });
-client.login(process.env.BOT_TOKEN);  
+client.login(process.env.BOT_TOKEN);
