@@ -88,7 +88,7 @@ client.on('message', async msg => {
                     .setDescription(`**الرجآء من حضرتك إختيآر رقم المقطع** :
 ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
  
-                    .setFooter("By iiFireKingYTii_#7310")
+                    .setFooter("By Naseem")
                     msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
                    
                     // eslint-disable-next-line max-depth
@@ -195,7 +195,7 @@ async function handleVideo(video, msg, voiceChannel, playlist = false) {
         } catch (error) {
             console.error(`I could not join the voice channel: ${error}`);
             queue.delete(msg.guild.id);
-            return msg.channel.send(`لا أستطيع دخول هذآ الروم ${error}`);
+           
         }
     } else {
         serverQueue.songs.push(song);
